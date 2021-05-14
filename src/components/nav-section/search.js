@@ -1,6 +1,5 @@
 import React from 'react';
 import './search-style.css';
-// import { useState, useEffect } from 'react';
 
 const Search = (props) => {
     return (
