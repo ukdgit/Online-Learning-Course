@@ -1,0 +1,68 @@
+
+.course-body{
+    background-color: rgb(74, 74, 207);
+    margin-top: 3rem;
+    margin-left: 6rem;
+    margin-right: 0rem;
+    padding-top: 5rem;
+    padding-bottom: 25rem;
+}
+
+.course-cat{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 1rem; 
+ }
+ 
+ .datascience{
+     border-style: solid;
+     border-radius: 0.3rem;
+     background-color: white;
+     color: rgb(74, 74, 207);
+     padding-right: 5.4rem;
+     font-weight: bold;
+ }
+
+ .datascience:hover{
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253)!important;
+ }
+
+ .design{
+    border-style: solid;
+    border-radius: 0.3rem;
+    background-color: white;
+    color: rgb(74, 74, 207);
+    padding-right: 8.1rem;
+    font-weight: bold;
+ }
+ 
+ .operation{
+    border-style: solid;
+    border-radius: 0.3rem;
+    background-color: white;
+    color: rgb(74, 74, 207);
+    padding-right: 6.6rem;
+    font-weight: bold;
+ }
+
+ .finance{
+    border-style: solid;
+    border-radius: 0.3rem;
+    background-color: white;
+    color: rgb(74, 74, 207);
+    padding-right: 7.8rem;
+    font-weight: bold;
+ }
+
+ .software-dev{
+    border-style: solid;
+    border-radius: 0.3rem;
+    background-color: white;
+    color: rgb(74, 74, 207);
+    padding-right: 0.5rem;
+    font-weight: bold;
+    
+    
+ }
+
