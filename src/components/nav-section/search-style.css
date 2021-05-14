@@ -1,30 +1,38 @@
 .search-input{
-   margin-left: 4rem;
+   margin-left: 1.5rem;
    margin-top: 5rem;
    margin-bottom: 0rem;
    width: 54rem;
    
   
 }
-.search-input:hover {
+/* .search-input:hover {
    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253)!important;
-}
+} */
 
-.btn{
+/* .btn{
    color: rgb(74, 74, 207);
    font-weight: bold;
-}
+} */
 
 .search{
-   width: 10rem;
+   margin-left: 1.5rem;
+   margin-right: 0.75rem;
    font-weight: bold;
    color: rgb(74, 74, 207);
    
 }
 
-
-.search-text {
+/* .search-text {
    margin-right: 5rem;
    margin-left: 2rem;
    padding-right: 5rem;
+} */
+
+.form-control{
+   width: 74% !important;
+}
+
+.pt-80{
+   padding-top: 80px;
 }

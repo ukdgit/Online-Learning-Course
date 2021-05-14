@@ -9,7 +9,7 @@ const CardsMultiple = ({ filteredCards }) => {
                 <div className='row'>
                     {filteredCards.map((element) => {
                         return (
-                            <div className='col-md-3'>
+                            <div className='col-md-3 w-auto'>
                                 <CardUI imgsrc={(element.imgsrc)} title={element.title} />
                             </div>
 

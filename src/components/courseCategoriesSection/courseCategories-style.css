@@ -2,10 +2,15 @@
 .course-body{
     background-color: rgb(74, 74, 207);
     margin-top: 3rem;
-    margin-left: 6rem;
-    margin-right: 0rem;
+    /* margin-left: 6rem;
+    margin-right: 0rem; */
     padding-top: 5rem;
     padding-bottom: 25rem;
+}
+
+.course-font{
+   font-weight: bold;
+   color: rgb(74, 74, 207);
 }
 
 .course-cat{
@@ -15,7 +20,7 @@
     margin-bottom: 1rem; 
  }
  
- .datascience{
+ /* .datascience{
      border-style: solid;
      border-radius: 0.3rem;
      background-color: white;
@@ -64,5 +69,5 @@
     font-weight: bold;
     
     
- }
-
+ } */
+ 
