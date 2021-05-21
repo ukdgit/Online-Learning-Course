@@ -1,3 +1,6 @@
+![Capture1](https://user-images.githubusercontent.com/78226651/119182855-f4cc0380-ba90-11eb-9986-785305e83629.PNG)
+![Capture2](https://user-images.githubusercontent.com/78226651/119182874-f7c6f400-ba90-11eb-911d-ff3aeb23589b.PNG)
+![Capture3](https://user-images.githubusercontent.com/78226651/119182876-f85f8a80-ba90-11eb-9d57-08d802b2a0db.PNG)
 # SpeEdlabsFrontEndAssignment
 Online Learning Website which can filter the courses using the checkbox and a search bar using reactjs.
 
