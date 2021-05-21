@@ -25,6 +25,14 @@ const CARDS = [
 
 ];
 
+const CHECKBOX = [
+  { inpt: <input type="checkbox" />, title: "Data Science" },
+  { inpt: <input type="checkbox" />, title: "Design" },
+  { inpt: <input type="checkbox" />, title: "Operation" },
+  { inpt: <input type="checkbox" />, title: "Finance" },
+  { inpt: <input type="checkbox" />, title: "Software development" }
+
+]
 
 const App = () => {
 
@@ -33,7 +41,7 @@ const App = () => {
     console.log(val);
     console.log(filteredCards.length, CARDS.length);
     if (type === 'search') {
-      if (val) {
+      if (val) {// if there is a value -> filter else-> return all cards
         setFilteredCards(
           CARDS.filter(element => {
             if (element.title.toLowerCase().includes(val.toLowerCase())) {
@@ -65,7 +73,6 @@ const App = () => {
         )
       }
     }
-
   }
 
   return (
@@ -73,7 +80,7 @@ const App = () => {
       <div className="App container">
         <div className="row">
           <div className="col-md-3 col-sm-4">
-            <CourseCategories filteredCards={filteredCards} setFilteredCards={filterCards} />
+            <CourseCategories CHECKBOX={CHECKBOX} filteredCards={filteredCards} setFilteredCards={filterCards} />
           </div>
           <div className="col-md-9 col-sm-8" >
             <Search filteredCards={filteredCards} setFilteredCards={filterCards} />
@@ -84,6 +91,5 @@ const App = () => {
     </Router>
   )
 }
-
 
 export default App;

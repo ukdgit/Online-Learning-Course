@@ -8,36 +8,16 @@ const CourseCategories = (props) => {
             <p className="course-cat">
                 Course Categories
             </p>
-
-            <div className="align-items-center bg-white d-flex mb-2 py-1 rounded">
-                <input type="checkbox" defaultChecked={false} className="mx-2" onChange={() => {
-                    props.setFilteredCards("Data Science", "select")
-                }} /> <span className="course-font">Data Science</span>
-            </div>
-
-            <div className="align-items-center bg-white d-flex mb-2 py-1 rounded">
-                <input type="checkbox" className="mx-2" onChange={(event) => {
-                    props.setFilteredCards("Design", "select")
-                }} /> <span className="course-font">Design</span> 
-            </div>
-
-            <div className="align-items-center bg-white d-flex mb-2 py-1 rounded">
-                <input type="checkbox" className="mx-2" onChange={(event) => {
-                    props.setFilteredCards("Operation", "select")
-                }} /> <span className="course-font">Operation</span>
-            </div>
-
-            <div className="align-items-center bg-white d-flex mb-2 py-1 rounded">
-                <input type="checkbox" className="mx-2" onChange={(event) => {
-                    props.setFilteredCards("Finance", "select")
-                }} /> <span className="course-font">Finance</span>
-            </div>
-
-            <div className="align-items-center bg-white d-flex mb-2 py-1 rounded">
-                <input type="checkbox" className="mx-2" onChange={(event) => {
-                    props.setFilteredCards("Software Development", "select")
-                }} /> <span className="course-font">Software Development</span>
-            </div>
+            {props.CHECKBOX.map((ele) => {
+                return (
+                    <div className="align-items-center bg-white d-flex mb-2 py-1 rounded" >
+                        <input type="checkbox" value={ele.title} defaultChecked={false} className="mx-2" onChange={(event) => {
+                            props.setFilteredCards(event.target.value)
+                        }} />
+                        <span className="course-font">{ele.title}</span>
+                    </div>
+                )
+            })}
         </div>
     )
 }
